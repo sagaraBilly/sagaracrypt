@@ -1,6 +1,6 @@
 # Sagara Crypt (Data Lock Safety and Cryptography)
 
-This repository contains resources and\ code for cryptography-related concepts.
+This repository contains resources and code for cryptography-related concepts.
 
 ## Features
 
