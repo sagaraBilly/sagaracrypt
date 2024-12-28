@@ -1,12 +1,12 @@
 # Sagara Crypt (Data Lock Safety and Cryptography)
 
-This repository contains resources and code for cryptography-related concepts.
+A simple code that can encrypt, decrypt, and hash a file.
+by: sagarabilly
 
 ## Features
 
 - Data Encryption and Decryption
-- Hashing Functions
-- Simple Cipher Algorithms 
+- SHA256 Hash Calculation 
 
 ## Setup
 you need python to run the program and some library dependencies.  
