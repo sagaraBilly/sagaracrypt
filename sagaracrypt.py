@@ -54,7 +54,7 @@ def cal_sha256(file_path):
     sha256_hash = hashlib.sha256()
     
     try:
-        # Open the file in binary mode
+        # Open in binary mode
         with open(file_path, "rb") as f:
             # Read the file in chunks of 4K bytes
             for byte_block in iter(lambda: f.read(4096), b""):
@@ -70,7 +70,6 @@ def cal_sha256(file_path):
         return None
 
 def save_hash_result(input_file, hash_result):
-    # Remove file extension and append "_hashresult.txt"
     file_name_without_extension = os.path.splitext(input_file)[0]
     save_path = f"{file_name_without_extension}_hashresult.txt"
     
@@ -114,7 +113,6 @@ def main():
     if args.hash256:
         hash_result = cal_sha256(args.input_file)
         
-        # If the hash was successfully computed, print and save it to a file
         if hash_result:
             print(f"SHA-256 Hash of the file '{args.input_file}': {hash_result}")
             save_hash_result(args.input_file, hash_result)      
