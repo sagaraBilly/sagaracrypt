@@ -11,11 +11,11 @@ This repository contains resources and\ code for cryptography-related concepts.
 ## Setup
 you need python to run the program and some library dependencies.  
 
-###1. Clone this repository:
+1. Clone this repository:
 git clone sagaraBilly/sagaracrypt
 
-###2. Change directory to the filder that you just cloned
+2. Change directory to the filder that you just cloned
 
-###3. See the contents
+3. See the contents
 python -m sagaracrypt --help
 
