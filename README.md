@@ -14,12 +14,12 @@ by: sagarabilly
 you need python to run the program and some library dependencies.  
 
 1. Clone this repository:<br>
-git clone sagaraBilly/sagaracrypt
+```git clone sagaraBilly/sagaracrypt```
 
 2. Change directory to the folder that you just cloned<br>
 
 3. See the contents:<br>
-python -m sagaracrypt --help
+```python -m sagaracrypt --help```
 
 ## Use Case Example
 
