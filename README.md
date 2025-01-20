@@ -1,6 +1,6 @@
 # Sagara Crypt (Data Lock Safety and Cryptography)
 
-A simple code that can encrypt, decrypt, and hash a file.
+A simple code that can encrypt, decrypt, and file hashing.
 by: sagarabilly
 
 ## Features
