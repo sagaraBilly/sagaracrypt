@@ -24,21 +24,21 @@ python -m sagaracrypt --help
 ## Use Case Example
 
 1. Encryption
-```python sagaracrypt.py --encrypt input.txt encrypted_output.txt myencryptionkey123
+`python sagaracrypt.py --encrypt input.txt encrypted_output.txt myencryptionkey123
 
 2. Decryption
-```python sagaracrypt.py --decrypt encrypted_output.txt decrypted_output.txt myencryptionkey12i3
+`python sagaracrypt.py --decrypt encrypted_output.txt decrypted_output.txt myencryptionkey12i3
 
 3. Compression
-```python sagaracrypt.py --compress input.txt compressed_output.zip
+`python sagaracrypt.py --compress input.txt compressed_output.zip
 
 4. Decompression
-```python sagaracrypt.py --decompress compressed_output.zip decompressed_folder
+`python sagaracrypt.py --decompress compressed_output.zip decompressed_folder
 
 5. Hashing
-```python sagaracrypt.py --hash sha256 input.txt
-```python sagaracrypt.py --hash sha1 input.txt
-```python sagaracrypt.py --hash md5 input.txt
+`python sagaracrypt.py --hash sha256 input.txt
+`python sagaracrypt.py --hash sha1 input.txt
+`python sagaracrypt.py --hash md5 input.txt
 
 6. Secure Deletion
-```python sagaracrypt.py --secure-delete input.txt
+`python sagaracrypt.py --secure-delete input.txt
