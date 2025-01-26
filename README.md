@@ -36,8 +36,8 @@ you need python to run the program and some library dependencies.
 ```python sagaracrypt.py --decompress compressed_output.zip decompressed_folder```
 
 5. Hashing<br>
-```python sagaracrypt.py --hash sha256 input.txt```
-```python sagaracrypt.py --hash sha1 input.txt```
+```python sagaracrypt.py --hash sha256 input.txt```<br>
+```python sagaracrypt.py --hash sha1 input.txt```<br>
 ```python sagaracrypt.py --hash md5 input.txt```
 
 6. Secure Deletion<br>
